@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 export class FirstComponent {
   nome:string = "André";
   idade:number = 22;
+  email:string = 'email@email.com';
 }
