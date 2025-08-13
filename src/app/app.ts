@@ -1,10 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FirstComponent } from "./first-component/first-component";
+// import { FirstComponent } from "./first-component/first-component";
+import { SecondComponent } from './second-component/second-component';
+import { ThirdComponent } from "./third-component/third-component";
 
 @Component({
   selector: 'app-root',
-  imports: [FirstComponent],
+  imports: [SecondComponent, ThirdComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
